@@ -1,0 +1,33 @@
+<div class="maindiv">
+  <h1>Calculator</h1>
+  <div>
+    <input type="text" placeholder="Enter a Value" [(ngModel)]="val1"/>    
+  </div>
+  <br>
+  <div >
+    <button type="button" class="btn btn-primary" (click)="populateValue(1)">1</button>
+    <button type="button" class="btn btn-primary" (click)="populateValue(2)">2</button>
+    <button type="button" class="btn btn-primary" (click)="populateValue(3)">3</button>
+    <button type="button" class="btn btn-primary" (click)="add()">+</button>
+  </div>
+  <div >
+    <button type="button" class="btn btn-primary" (click)="populateValue(4)">4</button>
+    <button type="button" class="btn btn-primary" (click)="populateValue(5)">5</button>
+    <button type="button" class="btn btn-primary" (click)="populateValue(6)">6</button>
+    <button type="button" class="btn btn-primary">-</button>
+  </div>
+  
+  <div >
+    <button type="button" class="btn btn-primary" (click)="populateValue(7)">7</button>
+    <button type="button" class="btn btn-primary" (click)="populateValue(8)">8</button>
+    <button type="button" class="btn btn-primary" (click)="populateValue(9)" >9</button>
+    <button type="button" class="btn btn-primary" >/</button>
+  </div>
+  
+  <div >
+    <button type="button" class="btn btn-primary">C</button>
+    <button type="button" class="btn btn-primary" (click)="populateValue(0)">0</button>
+    <button type="button" class="btn btn-primary" (click)="result()">=</button>
+    <button type="button" class="btn btn-primary">x</button>
+  </div>
+</div>
