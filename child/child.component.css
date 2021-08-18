@@ -1,0 +1,7 @@
+.student{
+    border: blue;
+    border-width: 2px;
+    border-style: solid;
+    width: 10%;    
+    display: flexbox;
+}
